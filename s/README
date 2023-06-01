@@ -1,0 +1,11 @@
+first run: pip install -r requirements.txt (I suggest doing this in a 
+virtual env)
+
+to run tests: pytest --disable-pytest-warnings  tests.py, 
+warnings disabled due to lots of Python 3.7 deprication warnings
+
+to run server: python ./server.py (listens on port 5000)
+to initialize data base for server:
+python -c 'from server import db; db.create_all()'
+
+to use caching: start redis on default port

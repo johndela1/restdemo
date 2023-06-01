@@ -1,0 +1,15 @@
+must have redis on localhost must have postgresql on localhost with a
+db named 'guid' that uses schema.sql
+
+run 'pip install -r requirements.txt' (I suggest doing this in a
+virtual env)
+
+to run tests: python ./tests.py
+
+to run server: python ./server.py (listens on port 5000)
+
+This server is very barebones, just wanted to see if I could figure out
+the async stuff.  Not sure how idiomatic it is, but it seems to work.
+
+Only methods supported are POST and GET.
+
