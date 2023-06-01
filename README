@@ -1,0 +1,6 @@
+The most complete implementation is in the directory named synchronous.
+After getting that working, I looked at the Python 3.7 asyncio stuff
+and started working on a partial implementation in the directory named
+asynchronous.  The asynchronous stuff is more of a proof of concept that
+I can get me head around the Python asyncio model to some degree.
+
